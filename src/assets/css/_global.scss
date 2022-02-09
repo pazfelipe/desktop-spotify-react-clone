@@ -1,0 +1,33 @@
+@import './variables';
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-content: center;
+}
+
+.full-h {
+  height: 100%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+button.btn {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.bg-grey-2 {
+  background-color: $grey-4 !important;
+}
+
